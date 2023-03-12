@@ -1,0 +1,16 @@
+{
+  "blog": [
+    {
+      "title": "What are We Doing ?",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores hic rem, eius quasi laborum aut aliquam consequatur deserunt a mollitia est repellendus vitae doloremque molestiae, veritatis ab voluptates! Eligendi, quos!",
+      "author": "Writen By Ahmed Elsaied",
+      "id": 1
+    },
+    {
+      "title": "What are We Doing ?",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores hic rem, eius quasi laborum aut aliquam consequatur deserunt a mollitia est repellendus vitae doloremque molestiae, veritatis ab voluptates! Eligendi, quos!",
+      "author": "Writen By Mohamed Elsaied",
+      "id": 2
+    }
+  ]
+}
