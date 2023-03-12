@@ -7,7 +7,7 @@ function BlogDetail() {
   const { data, isPending, error } = useFetch('http://localhost:8000/blog/' + id)
   const history = useNavigate();
   const handleClick = () => {
-    fetch('../json/db.json/' + data.id, {
+    fetch('http://localhost:8000/blog/' + data.id, {
       method: "DELETE"
     }).then(() => {
       history('/');

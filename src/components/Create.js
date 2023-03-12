@@ -12,7 +12,7 @@ function Create() {
         e.preventDefault();
         const blog = { title, body, author };
         setIsPending(true)
-        fetch('../json/db.json', {
+        fetch('http://localhost:8000/blog', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(blog)
